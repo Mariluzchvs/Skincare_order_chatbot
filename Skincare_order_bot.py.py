@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[23]:
-
-
-get_ipython().run_cell_magic('writefile', '.env', 'OPENAI_API_KEY= "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"\n')
-
 
 # In[24]:
 
