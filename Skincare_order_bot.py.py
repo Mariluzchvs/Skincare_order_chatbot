@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[23]:
-
-
-get_ipython().run_cell_magic('writefile', '.env', 'OPENAI_API_KEY= "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"\n')
-
 
 # In[24]:
 
@@ -52,7 +44,7 @@ def collect_messages(_):
     panels.append(
         pn.Row('User:', pn.pane.Markdown(prompt, width=600)))
     panels.append(
-        pn.Row('Assistant:', pn.pane.Markdown(response, width=600, style={'background-color': '#F6F6F6'})))
+        pn.Row('Assistant:', pn.pane.Markdown(response, width=600, styles={'background-color': '#F6F6F6'})))
  
     return pn.Column(*panels)
 
